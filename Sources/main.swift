@@ -9,4 +9,6 @@ class User {
 }
 
 print("Hello, world!")
-// let user = User()
+
+let user = User(name: "David", age: 25)
+print("User name: \(user.name), age: \(user.age)")
